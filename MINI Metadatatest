@@ -1,0 +1,676 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>MINI of Charleston - Lost Souls 01</title>
+    <style type="text/css">
+        #backgroundTable {
+                      background-color:#ffffff;
+                      margin:0 auto;
+                      padding:0;
+                      line-height:100% !important;
+                    }
+                    html {
+                      width: 100%;
+                    }
+
+                    /* Prevent Webkit and Windows Mobile platforms from changing default font sizes, while not breaking desktop design. */
+                    body {
+                      font-family:'Arial', 'Verdana', 'Helvetica Neue', 'Helvetica', sans-serif;
+                      -webkit-text-size-adjust:none;
+                      width: 100%;
+                      height: 100%;
+                      color: #252525;
+                      font-weight: 400;
+                      margin:0;
+                      padding:0;
+                      background-color:#f4f4f4;
+                    }
+                    body, table, td, a {
+                      -webkit-text-size-adjust:100%;
+                      -ms-text-size-adjust:100%;
+                      font-size: 14px;
+                      line-height:16px;
+                    }
+                    div, p, a, li, td {
+                      -webkit-text-size-adjust:none;
+                    }
+                    p {
+                      margin:0px 0px !important;
+                    }
+                    /* Force Outlook to provide a "view in browser" message */
+                    #outlook a {
+                      padding:0;
+                    }
+                    /* Force Hotmail to display emails at full width */
+                    .ExternalClass {
+                      width:100%;
+                    }
+                    /* Force Hotmail to display normal line spacing. */
+                    .ExternalClass,
+                    .ExternalClass p,
+                    .ExternalClass span,
+                    .ExternalClass font,
+                    .ExternalClass td,
+                    .ExternalClass div {
+                      line-height: 100%;
+                    }
+
+                    /*images*/
+                    img {
+                      outline:none;
+                      text-decoration:none;
+                      border:none;
+                      line-height:100%;
+                      -ms-interpolation-mode: bicubic;
+                    }
+                    a img {
+                      border:none;
+                    }
+
+                    /*table*/
+                    table {
+                      border-collapse:collapse;
+                      mso-table-lspace:0pt;
+                      mso-table-rspace:0pt;
+                    }
+                    table td {
+                      border-collapse: collapse;
+                    }
+                    table[class=full] {
+                      width: 100%;
+                      clear: both;
+                    }
+
+                    /*links general*/
+                    .ii a[href] {
+                      color: #252525;
+                      text-decoration: none !important
+                    }
+                    href > a {
+                      color: #252525;
+                      text-decoration: none !important;
+                    }
+                    a {
+                      color: #252525;
+                      text-decoration: none !important;
+                    }
+                    .expiration_date, .expiration_date a {
+                      color: #252525;
+                      text-decoration: none !important;
+                    }
+                    .footer_address, .footer_address a {
+                      color:#252525;
+                      text-decoration: none !important;
+                    }
+                    .footer_links, .footer_links a {
+                      color:#252525;
+                      text-decoration: none !important;
+                    }
+                    .preview {
+                      font-size:12px !important;
+                      line-height:12px !important;
+                      color:#808080 !important;
+                      text-decoration: none !important;
+                    }
+                    .disclaimer {
+                      font-size:10px !important;
+                      line-height:10px !important;
+                      color:#808080 !important;
+                      text-decoration: none !important;
+                    }
+                    .dc_copyright{
+                      color:#808080 !important;
+                      text-decoration: none !important;
+                    }
+
+                    /*tablet responsive style*/
+                    @media only screen and (max-width: 640px) {
+                      /*link specific*/
+                      a[href^="tel"] {
+                        text-decoration: none;
+                        color: #252525 !important;
+                        cursor: default;
+                      }
+                      .footer_links a[href^="tel"] {
+                        text-decoration: default;
+                        color: #252525 !important;
+                        cursor: default;
+                      }
+                      .footer_address, .footer_address a {
+                        font-size:15px !important;
+                        line-height:16px !important;
+                        text-decoration:none !important;
+                      }
+                      .footer_links, .footer_links a {
+                        font-size:14px !important;
+                        line-height:14px !important;
+                        text-decoration:none !important;
+                      }
+
+                      /*layout container*/
+                      table[class=devicewidth] {
+                        width: 440px !important;
+                      }
+                      table[class=devicewidthinner] {
+                        width: 420px !important;
+                      }
+                      table[class=devicewidthcoupon] {
+                        width: 400px !important;
+                      }
+                      table[class=devicewidthcouponinner] {
+                        width: 380px !important;
+                      }
+                      td.colsplit{
+                        display: block !important;
+                        width: 100% !important;
+                      }
+
+                      /*image specific*/
+                      img[class=banner] {
+                        width: 440px !important;
+                        height:auto !important;
+                      }
+                      img[class=passbook] {
+                        width: 200px !important;
+                        height:auto !important;
+                      }
+                      img[class=misc] {
+                      }
+                      img[class=misc2] {
+                      }
+
+                      /*header and text*/
+                      .main_header {
+                        font-size:30px !important;
+                        line-height:32px !important;
+                      }
+                      .main_subheader {
+                        font-size:24px !important;
+                        line-height:26px !important;
+                      }
+
+                      /*cta tagline and buttpon*/
+                      .cta_header {
+                        font-size:22px !important;
+                        line-height:24px !important;
+                        border:none !important;
+                      }
+                      .cta_button {
+                      }
+
+                      /*coupon style*/
+                      .coupon_header {
+                        font-size:24px !important;
+                        line-height:24px !important;
+                      }
+                      .coupon_amount {
+                        font-size:95px !important;
+                        line-height:95px !important;
+                      }
+                      .coupon_type {
+                        font-size:50px !important;
+                        line-height:50px !important;
+                      }
+                      .coupon_discount {
+                        font-size:60px !important;
+                        line-height:60px !important;
+                      }
+                      .coupon_service_type {
+                        font-size:24px !important;
+                        line-height:24px !important;
+                      }
+                      .coupon_description {
+                        font-size:24px !important;
+                        line-height:26px !important;
+                      }
+
+                      /*footer specific*/
+                      table[class=footer_address] {
+                        width: 210px !important;
+                      }
+                      table[class=footer_hours] {
+                        width: 200px !important;
+                      }
+                      .footer_logo {
+                        width:175px !important;
+                      }
+                      .footer_dealership {
+                        font-size:20px !important;
+                        line-height:22px !important;
+                      }
+                      .footer_header {
+                        font-size:16px !important;
+                        line-height:16px !important;
+                      }
+                      .footer_address {
+                        font-size:14px !important;
+                        line-height:14px !important;
+                      }
+                    }
+
+                    /*smartphone responsive style*/
+                    @media only screen and (max-width: 480px) {
+                      /*link specific*/
+                      a[href^="tel"] {
+                        text-decoration: none;
+                        color: #252525 !important;
+                        cursor: default;
+                      }
+                      .footer_links a[href^="tel"] {
+                        text-decoration: default;
+                        color: #252525 !important;
+                        cursor: default;
+                      }
+                      .footer_address, .footer_address a {
+                        font-size:14px !important;
+                        line-height:16px !important;
+                        text-decoration:none !important;
+                      }
+                      .footer_links, .footer_links a {
+                        font-size:14px !important;
+                        line-height:14px !important;
+                        text-decoration:none !important;
+                      }
+
+                      /*layout container*/
+                      table[class=devicewidth] {
+                        width: 320px !important;
+                      }
+                      table[class=devicewidthinner] {
+                        width: 300px !important;
+                      }
+                      table[class=devicewidthcoupon] {
+                        width: 300px !important;
+                      }
+                      table[class=devicewidthcouponinner] {
+                        width: 280px !important;
+                      }
+                      td.colsplit{
+                        display: block !important;
+                        width: 100%!important;
+                      }
+                      .footer_colsplit{
+                        display: block !important;
+                        width: 100%!important;
+                      }
+
+                      /*image specific*/
+                      img[class=banner] {
+                        width: 320px !important;
+                        height:auto !important;
+                      }
+                      img[class=passbook] {
+                        width: 200px !important;
+                        height:auto !important;
+                      }
+                      img[class=misc] {
+                      }
+                      img[class=misc2] {
+                      }
+
+                      /*header and text*/
+                      .main_header {
+                        font-size:26px !important;
+                        line-height:28px !important;
+                      }
+                      .main_subheader {
+                        font-size:26px !important;
+                        line-height:28px !important;
+                      }
+
+                      /*cta tagline and buttpon*/
+                      .cta_header {
+                        font-size:20px !important;
+                        line-height:20px !important;
+                        border:none !important;
+                      }
+                      .cta_button {
+                      }
+
+                      /*coupon style*/
+                      .coupon_header {
+                        font-size:20px !important;
+                        line-height:22px !important;
+                      }
+                      .coupon_amount {
+                        font-size:85px !important;
+                        line-height:85px !important;
+                      }
+                      .coupon_type {
+                        font-size:40px !important;
+                        line-height:40px !important;
+                      }
+                      .coupon_discount {
+                        font-size:50px !important;
+                        line-height:50px !important;
+                      }
+                      .coupon_service_type {
+                        font-size:18px !important;
+                        line-height:18px !important;
+                      }
+                      .coupon_description {
+                        font-size:24px !important;
+                        line-height:24px !important;
+                      }
+
+                      /*footer specific*/
+                      table[class=footer_address] {
+                        width: 300px !important;
+                      }
+                      table[class=footer_hours] {
+                        width: 300px !important;
+                      }
+                      .footer_logo {
+                        width:200px !important;
+                      }
+                      .footer_dealership {
+                        font-size:18px !important;
+                        line-height:20px !important;
+                      }
+                      .footer_header {
+                        font-size:16px !important;
+                        line-height:16px !important;
+                      }
+                    }
+    </style>
+</head>
+
+<body bgcolor="#f4f4f4" offset="0" style="padding:0;margin:0;background-color:#f4f4f4;-webkit-text-size-adjust:none;font-family:'Arial', 'Verdana', 'Helvetica Neue', 'Helvetica', sans-serif;-webkit-font-smoothing:antialiased;">
+    <table border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:100%">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:600px">
+                        <tbody>
+                            <tr>
+                                <td width="100%">
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:600px">
+                                        <tbody>
+                                            <tr>
+                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="right" style="color:#808080;font-size:12px;font-family:'Arial', 'Verdana', 'Helvetica Neue', 'Helvetica', sans-serif;" valign="middle">To view this email as a web page, go
+                                                    <a class="preview" href="{{viewInBrowserUrl}}" style="font-size:12px !important;color:#808080;text-decoration:none;"> <u>here</u> </a>&nbsp;</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <!--main body content-->
+
+    <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:100%">
+        <tbody>
+            <tr>
+                <td>
+                    <table align="center" bgcolor="#ffffff" border="0" cellpadding="0" cellspacing="0" class="devicewidth" id="backgroundTable" style="background-color:#ffffff; border-collapse:collapse; border:1px solid #cccccc; mso-table-lspace:0pt; mso-table-rspace:0pt; width:600px">
+                        <tbody>
+                            <tr>
+                                <td align="center" style="width:100%;" width="100%">
+                                    <!--header and banner-->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidth" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:600px">
+                                        <tbody>
+                                            <tr>
+                                                <td align="center" style="width:100%;border-bottom:8px solid #3d0016;" width="100%">
+                                                    <a href="{{d_web_url_01}}"><img alt="banner" class="banner" height="300" src="https://s3.amazonaws.com/snehta_email_image_library/brands/mini/2017/lost_souls_01.jpg" style="display:block;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;outline-style:none;text-decoration:none;border-style:none;-ms-interpolation-mode:bicubic;"
+                                                        width="600" /> </a>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="height:20px;font-size:1px;line-height:1px;"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width:100%;" width="100%">
+                                    <!--tageline and verbiage-->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:570px">
+                                        <tbody>
+                                            <tr>
+                                                <td class="colsplit">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="main_header" style="color:#252525;font-size:24px;line-height:26px;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;"><strong>STEER CLEAR OF SUB-PAR MINI SERVICE PROVIDERS.</strong></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                                <td class="colsplit" height="20" style="width:10px;height:20px;font-size:1px;line-height:1px;" width="10"></td>
+                                                <td align="center" class="colsplit" rowspan="2"><img alt="logo" class="misc" height="66" src="https://s3.amazonaws.com/snehta_email_image_library/brands/mini/2017/mini_logo_black.png" style="display:block;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;outline-style:none;text-decoration:none;border-style:none;-ms-interpolation-mode:bicubic;"
+                                                    width="156" /></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="height:20px;font-size:1px;line-height:1px;"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width:100%;" width="100%">
+                                    <!--verbiage-->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:570px">
+                                        <tbody>
+                                            <tr>
+                                                <td style="color:#252525;font-size:14px;line-height:16px;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;"><strong>Dear {{first_name}} {{last_name}},</strong></td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color:#252525;font-size:14px;line-height:16px;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;">At MINI of Charleston, we appreciate the opportunity to provide customers like you superior service. Whether it's a simple check-up, routine maintenance, or something more, our technicians are ready to service
+                                                    your specific vehicle professionally and efficiently.</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="color:#252525;font-size:14px;line-height:16px;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;"><strong>We would hate for you to miss out. Visit us today.</strong></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30" style="height:30px;font-size:1px;line-height:1px;"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width:100%;" width="100%">
+                                    <!--coupon information-->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthcoupon" style="border-collapse:collapse; border:2px dashed #959595; mso-table-lspace:0pt; mso-table-rspace:0pt; width:400px">
+                                        <tbody>
+                                            <tr>
+                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <table align="center" bgcolor="#221f1f" border="0" cellpadding="0" cellspacing="0" class="devicewidthcouponinner" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:375px">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" class="coupon_header" colspan="4" style="color:#ffffff;font-size:24px;line-height:24px;font-weight:bold;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;" valign="top">Exclusive Service Special</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthcouponinner" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:350px">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td colspan="4" height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="right" class="coupon_amount" rowspan="2" style="color:#252525;font-size:95px;line-height:95px;font-weight:bold;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;">{{#metadata "metadatatest" monthsafterlastservice as |months|}} {{months.promo}} {{/metadata}}</td>
+                                                                <td class="coupon_type" style="color:#252525;font-size:45px;line-height:45px;font-weight:bold;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;" valign="top" width="40">%</td>
+                                                                <td style="width:10px;font-size:1px;line-height:1px;" width="10"></td>
+                                                                <td class="coupon_discount" height="55" style="color:#252525;font-size:57px;line-height:57px;font-weight:bold;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;">OFF</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="coupon_service_type" colspan="3" style="color:#252525;font-size:24px;line-height:24px;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;" valign="top">&nbsp;All Services</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="5" style="height:5px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" class="coupon_description" style="color:#252525;font-size:24px;line-height:24px;font-weight:bold;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;">Up To $200 In Value</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" class="expiration_date" style="color:#252525;font-size:16px;line-height:16px;font-weight:bold;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;">Offer Expires: {{promo_expiration_date}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="5" style="height:5px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center" style="color:#252525;font-size:12px;line-height:12px;font-weight:bold;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;">Use Promo Code: {{promo_code}}</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td align="center">
+                                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthcouponinner" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:350px">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td height="60" style="color:#252525;font-size:10px;line-height:10px;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;">*Applies to VIN {{vin}}. {{vehicle_make}} {{model}}. Does not include tires or oil. Coupon must be presented at time of service write-up. Does not include sales tax. Coupon not valid with
+                                                                    any other offer or in store specials. Limit one coupon per person. Coupon does not apply to previous purchases. Not to be combined with any other offer. Void where prohibited. Other restrictions
+                                                                    apply. Coupon has no cash value.</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td align="center" style="width:100%;" width="100%">{{#metadata "metadatatest" monthsafterlastservice as |months|}}{{months.passbookserialnumber1}} {{/metadata}}
+                                                                    <a href="https://coupons.dataclover.com/passes/{{passbookserialnumber1}}/download/{{dealership_id}}/{{vin}}/{{promo_code}}/{{promo_expiration_date}}"><img alt="passbook banner" class="passbook" height="30" src="https://s3.amazonaws.com/snehta_email_image_library/passbook_dual_icons.png" style="display:block;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;outline-style:none;text-decoration:none;border-style:none;-ms-interpolation-mode:bicubic;"
+                                                                        width="200" /> </a>
+                                                                </td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30" style="height:30px;font-size:1px;line-height:1px;"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width:100%;" width="100%">
+                                    <!--cta - schedule button-->
+                                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:570px">
+                                        <tbody>
+                                            <tr>
+                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td class="cta_header" style="color:#252525;font-size:20px;line-height:20px;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;">REDEEM THIS LIMITED MINI OFFER EVEN FASTER.</td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                            <tr>
+                                                <td style="width:260px;" width="260">
+                                                    <table border="0" cellpadding="0" cellspacing="0" class="cta_button" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt">
+                                                        <tbody>
+                                                            <tr>
+                                                                <td align="center" bgcolor="#3d0016" style="padding: 12px 18px 12px 18px; -webkit-border-radius:3px; border-radius:3px;color:#ffffff;font-size: 18px; font-weight:bold;text-decoration: none;"><a href="{{d_opt_url_01}}" style="background-color:#3d0016;color:#ffffff;font-size: 18px; font-weight:bold;font-family: Helvetica, Arial, sans-serif; text-decoration: none; display: inline-block;"
+                                                                    target="_blank">Schedule Your Services Today</a></td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="30" style="height:30px;font-size:1px;line-height:1px;"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="width:100%;" width="100%">
+                                    <!--footer information-->{{{ snippet "mini_main_footer" }}}</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <!--Unsubscribe-->
+                    <table align="center" border="0" cellpadding="0" cellspacing="0" class="devicewidthinner" style="border-collapse:collapse; mso-table-lspace:0pt; mso-table-rspace:0pt; width:570px">
+                        <tbody>
+                            <tr>
+                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                            </tr>
+                            <tr>
+                                <td height="60" style="width:600px;height:60px;color:#808080;font-size:10px;margin-top:0;margin-right:0;margin-bottom:0;margin-left:0;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;" width="600">This is an email advertisement sent by MINI of Charleston. You are receiving this email because you have either purchased a vehicle or your vehicle has been serviced by MINI of Charleston. MINI of Charleston sends special
+                                    sales and service offers as well as vehicle news to all our customers. To ensure delivery of future emails, please add this MINI of Charleston contact to your safe senders list. To stop receiving these owner emails
+                                    from MINI of Charleston, please
+                                    <a class="disclaimer" href="{{unsubscribeUrl}}" style="font-size:12px !important;color:#808080 !important;text-decoration:none !important;"> <u>click here to unsubscribe.</u> </a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                            </tr>
+                            <tr>
+                                <td style="color:#808080;font-size:10px;line-height:10px;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;">Please note: This email was sent from a notification-only address that cannot accept incoming email. Do not reply to this message. Contact dealership directly with questions and comments.</td>
+                            </tr>
+                            <tr>
+                                <td height="10" style="height:10px;font-size:1px;line-height:1px;"></td>
+                            </tr>
+                            <tr>
+                                <td align="center" style="color:#808080;font-size:12px;line-height:12px;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;">Powered By DataClover Digital Marketing Solution</td>
+                            </tr>
+                            <tr>
+                                <td align="center"><a class="dc_copyright" href="{{dc_url_01}}" style="color:#808080 !important;font-size:12px;line-height:12px;font-weight:bold;font-family:'Arial', 'Verdana', 'Helvetica Neue', Helvetica, sans-serif;text-decoration:none !important;">© {{current_year}} DataClover, Inc. </a></td>
+                            </tr>
+                            <tr>
+                                <td height="20" style="height:20px;font-size:1px;line-height:1px;"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
